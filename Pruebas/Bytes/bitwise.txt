@@ -1,0 +1,4 @@
+
+    extract the high byte hibyte = (x & 0xff00) >> 8;
+    extract the low byte lobyte = (x & 0xff);
+    combine them in the reverse order x = lobyte << 8 | hibyte;
